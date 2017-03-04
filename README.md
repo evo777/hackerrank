@@ -1,3 +1,3 @@
 # Hacker Rank
 
-This repository has all the Hacker Rank problems that I have solved so far. I will be solving the problems in JavaScript.
+This repository has Hacker Rank problems that I have solved so far. These problems will be solved in JavaScript.
