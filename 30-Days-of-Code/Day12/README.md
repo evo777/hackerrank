@@ -8,4 +8,7 @@ Complete the Student class by writing the following:
   1. A string, firstName.
   2. A string, lastName.
   3. An integer, id.
-  4. An integer array (or vector) of test scores, .
+  4. An integer array (or vector) of test scores, scores.
+
+
+Note: Since this problem could not be sovlved in JavaScript, I will be doing it in Java.
