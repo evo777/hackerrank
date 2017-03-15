@@ -23,15 +23,15 @@ function Node(data) {
 
 function Solution() {
 
-    this.insert=function(head, data) {
+    this.insert = function(head, data) {
         //complete this method
         var node = new Node(data);
 
-        if(!head ){
+        if (!head ) {
           head = node;
         }
-        else{
-          current = head ;
+        else {
+          current = head;
           while(current.next){
             current = current.next;
           }
@@ -40,7 +40,7 @@ function Solution() {
         return head;
     };
 
-    this.display=function(head) {
+    this.display = function(head) {
     var start=head;
         while(start){
             process.stdout.write(start.data+" ");
