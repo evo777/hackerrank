@@ -27,7 +27,7 @@ function main() {
         //Your code here.
         if (grade > 37 && grade % 5 > 2)
             grade += 5 - grade % 5; //The 5 - grade % 5 is how much the grade have left in order to reach the next divisible of 5.
-        process.stdout.write(grade + "\n");
+        process.stdout.write(grade + "\n"); // Printing results
     }
 
 }
