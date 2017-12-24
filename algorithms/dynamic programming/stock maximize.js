@@ -1,9 +1,9 @@
-function int(str) {
+const int = (str) => {
     return parseInt(str, 10);
 }
 
-function solve(a) {
-    var sum = 0,
+const solve = (a) => {
+    let sum = 0,
         m = -Infinity,
         i = a.length;
     while (i > 0) {
@@ -17,7 +17,7 @@ function solve(a) {
     return sum;
 }
 
-function processData(input) {
+const processData = (input) => {
     var lines = input.trim().split('\n');
     var t = int(lines.shift());
     while (t > 0) {
