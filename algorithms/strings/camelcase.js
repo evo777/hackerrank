@@ -21,10 +21,10 @@ function readLine() {
 /////////////// ignore above this line ////////////////////
 
 function main() {
-    var s = readLine();
-    var result = 0;
+    let s = readLine();
+    let result = 0;
 
-    for(var i = 0; i < s.length; i++) {
+    for(let i = 0; i < s.length; i++) {
         if (s.charAt(i) === s.charAt(i).toUpperCase()) {
             result++;
         }
