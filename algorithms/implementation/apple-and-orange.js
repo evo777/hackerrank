@@ -35,16 +35,16 @@ function main() {
     orange = readLine().split(' ');
     orange = orange.map(Number); //Array of oranges that have fallen from the tree
 
-    var apples = 0;
-    var oranges = 0;
+    let apples = 0;
+    let oranges = 0;
 
-    for(var i = 0; i < apple.length; i++) {
+    for(let i = 0; i < apple.length; i++) {
         if ((a + apple[i] >= s) && (a + apple[i] <= t)) {
             apples++;
         }
     }
 
-    for(var j = 0; j < orange.length; j++) {
+    for(let j = 0; j < orange.length; j++) {
         if ((b + orange[j] >=s) && (b + orange[j] <= t)) {
             oranges++;
         }
