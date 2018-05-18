@@ -21,9 +21,9 @@ function readLine() {
 /////////////// ignore above this line ////////////////////
 
 function main() {
-    var n = parseInt(readLine());
+    const n = parseInt(readLine());
     for(var a0 = 0; a0 < n; a0++){
-        var grade = parseInt(readLine());
+        let grade = parseInt(readLine());
         //Your code here.
         if (grade > 37 && grade % 5 > 2)
             grade += 5 - grade % 5; //The 5 - grade % 5 is how much the grade have left in order to reach the next divisible of 5.
