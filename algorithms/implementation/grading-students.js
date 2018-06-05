@@ -22,7 +22,7 @@ function readLine() {
 
 function main() {
     const n = parseInt(readLine());
-    for(var a0 = 0; a0 < n; a0++){
+    for(let a0 = 0; a0 < n; a0++){
         let grade = parseInt(readLine());
         //Your code here.
         if (grade > 37 && grade % 5 > 2)
